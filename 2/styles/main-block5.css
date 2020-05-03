@@ -1,0 +1,146 @@
+﻿.block-5{
+    padding :50px;
+}
+.block-5-h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #555555;
+}
+.block-5-p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight :lighter;
+    text-align : center;
+}
+.block-5-textdiv{
+    max-width :900px ;
+    margin-left : auto;
+    margin-right : auto;
+}
+.block-5-nav-wrap{
+    margin-left :auto;
+    margin-right :auto;
+}
+.block-5-ul{
+    justify-content :center;
+}
+.mynavpills .nav-link.active {
+    background-color: #998675;
+}
+.mynavpills .nav-link {
+    padding-left: 25px;
+    padding-right: 25px;
+    color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ebebeb;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight :lighter;
+}
+.block-5-item1{
+    background-image :url(../imgs/b51.png);
+}
+.block-5-items .bdef {
+    background-position: center;
+    background-size: cover;
+    min-height: 250px;
+    position: relative;
+}
+.block-5-items div .block-5-treeangle {
+    position: absolute;
+    bottom: 0px;
+    left :25px ;
+}
+.block-5-item-div {
+    padding: 10px;
+    background-color: #fbfaf8;
+}
+    .block-5-item-div h2 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 24px;
+        color: #c7b299;
+        font-weight :500;
+    }
+    .block-5-item-div p {
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        color :gray;
+        font-weight :500;
+    }
+.triangle-top {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 15px 15px;
+    border-color: transparent transparent #fbfaf8 transparent;
+    z-index :1 ;
+}
+.block-5-items:hover .block-5-item-div {
+    background-color: #362f2d;
+}
+.block-5-items:hover .bdef .triangle-top {
+    border-color: transparent transparent #362f2d transparent;
+}
+
+.block-5-items:hover .block-5-item-div p {
+    color: #c7b299;
+}
+.block-5-items:hover .block-5-item-div h2 {
+    color: #f2f1f1;
+}
+.block-5-items:hover .bdef .block-5-item-hovered{
+    display : block;
+}
+.block-5-item-hovered {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.block-5-defblock {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.block-5-defblock a {
+    padding :10px ;
+}
+    .block-5-defblock a img {
+        width:100% ;
+        max-width :50px ;
+    }
+.block-5-item2 {
+    background-image: url(../imgs/b52.png);
+}
+.block-5-item3 {
+    background-image: url(../imgs/b53.png);
+}
+.block-5-item4 {
+    background-image: url(../imgs/b54.png);
+}
+.block-5-item5 {
+    background-image: url(../imgs/b55.png);
+}
+.block-5-item6 {
+    background-image: url(../imgs/b56.png);
+}
+.block-5-but-div{
+    max-width :250px ;
+    margin-left : auto;
+    margin-right : auto;
+    padding :20px ;
+}
+.block-5-but-div a {
+    
+    margin-left: auto;
+    margin-right: auto;
+}

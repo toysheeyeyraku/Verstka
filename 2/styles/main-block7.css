@@ -1,0 +1,49 @@
+﻿.block-7{
+    padding-top :50px ;
+}
+.block-7-hand{
+    max-height :500px ;
+
+}
+.block-7-div-wr{
+    padding-top:50px ;
+}
+    .block-7-div-wr p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight :lighter;
+        color :gray;
+        font-size :16px;
+    }
+    .block-7-div-wr h3 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        color: black;
+        font-size: 30px;
+    }
+.conteinetlesser{
+    max-width:1000px;
+}
+.block-7-seconddiv{
+    padding-top :50px ;
+    padding-left :30px ;
+}
+    .block-7-seconddiv .block-7-undered p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+        color: gray;
+        font-size: 16px;
+        margin-bottom :0px ;
+        line-height :0px ;
+        padding-left :10px ;
+        padding-top:3px;
+    }
+.block-7-undered {
+    display: flex;
+    justify-content: flex-start;
+   align-items :center;
+   padding-bottom :10px ;
+}
+.block-7-img {
+    max-width:30px ;
+    width:100% ;
+}

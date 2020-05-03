@@ -1,0 +1,416 @@
+.first-p {
+    font-family: 'Work Sans', sans-serif;
+    color: #5f5f5f;
+    display: block;
+    max-width: 700px;
+    margin-left : auto;
+    margin-right :auto;
+}
+.first-bg {
+    background-color: #f6f6f6;
+    text-align :center;
+   padding-top :50px;
+   padding-bottom :50px;
+}
+.first-h1 {
+    font-family: 'Playfair Display', serif;
+    color :black;
+    text-align :center;
+    font-weight :bold;
+    font-size :38px;
+}
+.imgslick{
+    width :100%;
+}
+.sl-slide {
+    padding :15px;
+   
+    
+}
+    .sl-slide:focus{
+        outline :none;
+    }
+    .firsts {
+        font-family: 'Playfair Display', serif;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: start;
+    }
+.txtz {
+    font-family: 'Work Sans', sans-serif;
+    color: #5f5f5f;
+    text-align :start;
+    font-size :15px;
+    margin :0px;
+}
+.may {
+    color: black;
+    font-size: 15px;
+    text-align: start;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+.pdtxt{
+    
+   padding : 20px;
+   margin :0px;
+}
+.nature {
+    display: block;
+    position: absolute;
+    color: white;
+    font-size :16px;
+    background-color: black;
+    left: 10px;
+    bottom: 10px;
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    padding: 5px 5px;
+    min-width :100px;
+}
+.zns {
+    -webkit-box-shadow: 0px 0px 39px 0px rgba(173,173,173,1);
+    -moz-box-shadow: 0px 0px 39px 0px rgba(173,173,173,1);
+    box-shadow: 0px 0px 5px 0px rgba(173,173,173,1);
+    background-color: white;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black;
+    font-size :10px;
+}
+.slick-dotted.slick-slider:focus{
+    outline :none;
+}
+.imgs-block{
+    padding :40px 0px;
+}
+.imgt{
+    width :100%;
+    max-width :100px;
+    display :block;
+    margin-right :auto;
+    margin-left :auto;
+    padding :20px 0px;
+}
+.blackslider{
+    background-image :url('../imgs/pattern bg.png');
+    padding-top :150px;
+    padding-bottom : 50px;
+}
+.prrz {
+   padding :10px 0px;
+   width :250px;
+   margin :0 auto;
+}
+.playz {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    text-align :center;
+    font-style :italic;
+    font-size :30px;
+}
+.inner{
+    width :75%;
+    margin-left :auto;
+    margin-right :auto;
+}
+.michel {
+    font-family: 'Work Sans', sans-serif;
+    font-weight :500;
+    text-align :center;
+    color :white;
+    font-size :20px;
+    padding-bottom :50px;
+}
+
+.slick-dots li .tz:before {
+    color: white;
+    opacity: 0.9;
+}
+.slick-dots li.slick-active .tz:before{
+    color :white ;
+    opacity : .9;
+    font-size :10px;
+}
+.work {
+    display :block;
+    color: #5f5f5f;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    max-width :700px;
+    margin-left :auto;
+    margin-right :auto;
+    padding-bottom :30px;
+}
+.mzt{
+    width :75%;
+    margin-left :auto;
+    margin-right :auto;
+}
+.big {
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-weight :bold;
+    text-align :center;
+    padding-bottom :20px;
+}
+.bigprojects{
+    padding :50px 0px;
+}
+.grid-sizer,
+.grid-item {
+    width: 33%;
+    padding :10px;
+}
+.grid-item img{
+    width :100%;
+}
+.ingrid{
+    position :relative;
+}
+.szs {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.grid-item:hover .szs{
+    display :block;
+    opacity :1;
+    transition : opacity 0.5s;
+}
+.txtin {
+    margin: 0;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.vinil {
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin :0;
+    font-size :24px;
+    text-align :center;
+}
+.ph {
+    font-family: 'Work Sans', sans-serif;
+    font-weight :500;
+    font-size :14px;
+    text-align :center;
+}
+.blackicons{
+    background-color :black;
+    padding :90px 0px;
+}
+.cmpl {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size :14px;
+    color :white ;
+    margin :0px;
+    margin-left :10px;
+}
+.toimg{
+  width :40px;
+  height :40px;
+}
+.signature{
+    display :block;
+    margin-left :auto;
+    margin-right :auto;
+}
+.aboutus{
+    padding :100px 0px;
+}
+.header-block{
+    background-image :url('../imgs/overlay.png');
+}
+.cool-link {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+   
+}
+    .cool-link:hover {
+        color: white;
+    }
+    .newagency {
+        color: white;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
+.pad{
+    padding-top :150px;
+    padding-bottom :75px;
+}
+.we {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-align :center;
+    font-size :48px;
+}
+.qaz {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-style :italic;
+    font-weight :400;
+    text-align: center;
+    font-size: 48px;
+}
+.crk{
+    display : block;
+    margin-left :auto;
+    margin-right :auto;
+    padding-top :100px;
+}
+.line {
+    height: 1px;
+    background-color: #ececec;
+}
+.contactinfo {
+    padding: 75px 0px;
+    background-color: #f6f6f6;
+}
+.contact-h {
+    font-family: 'Playfair Display', serif;
+    font-weight :bold;
+    font-size :30px;
+    margin-bottom :20px;
+}
+.contact-txt {
+    display :block;
+    font-family: 'Work Sans', sans-serif;
+    color: #5f5f5f;
+    font-size: 16px;
+    font-weight :500;
+    width :90%;
+}
+.s {
+    font-family: 'Work Sans', sans-serif;
+    color: #5f5f5f;
+    font-size: 14px;
+    margin-bottom :5px;
+}
+.sp {
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right :10px;
+}
+.inp {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+}
+.inp:focus {
+    outline :none;
+}
+.pnd{
+    margin-top :20px;
+}
+.comment{
+   height :175px;
+   resize :none;
+
+}
+.blbtn {
+    background-color: black;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight :500;
+    padding :15px 25px;
+    border :none;
+    margin-top :10px;
+}
+.lastblock{
+    padding :75px;
+    background-color :black;
+}
+.aboutlast {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size :20px;
+}
+.preg {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #e9e9e9;
+}
+.as{
+    padding :10px;
+}
+.wreg {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size :16px;
+    margin-left :10px;
+}
+.twit{
+    width :100%;
+    max-width :20px;
+    height :15px;
+    margin-top :5px;
+}
+.lstb{
+    width :100%;
+  
+}
+.mopad{
+    padding :2px;
+}
+.pzkw {
+    background-color: #252525;
+}
+.whocreate{
+    padding :20px 0px;
+    background-color : black;
+}
+.created {
+    text-align: center;
+    color: #e9e9e9;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    margin: 0px;
+}
+.navbar-light .navbar-nav .cool-link {
+    color: white;
+}
+@media screen and (max-width: 992px) {
+    .grid-sizer, .grid-item {
+        width: 50%;
+        padding: 10px;
+    }
+    .txtz{
+        font-size :14px;
+    }
+    .firsts{
+        font-size :16px;
+    }
+   
+}
+@media screen and (max-width: 512px) {
+    .grid-sizer,
+    .grid-item {
+        width: 100%;
+        padding: 10px;
+    }
+}
