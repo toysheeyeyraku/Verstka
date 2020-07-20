@@ -1,0 +1,86 @@
+@media screen and (max-width: $tablet) {
+    .dds {
+        width: 90%;
+        margin: 0 auto;
+        max-width: unset;
+        padding-bottom: 25px;
+    }
+    .foc img {
+        width: 100%;
+        max-width: unset;
+        top: 0px;
+        margin : 0;
+        position: unset;
+        padding: 0px;
+    }
+    .ppp {
+        width: 100%;
+        max-width: 500px;
+        padding: 0px;
+        margin : 0 auto;
+        padding-bottom: 50px;
+    }
+     .ghh{
+         flex-direction: column;
+     }
+     
+    
+    .bl {
+        
+        margin : 10px auto
+    }
+    
+    
+    
+    
+   
+ }
+ @media screen and (max-width: $tablet-small) {
+     
+ .uploads {
+     flex-direction: column;
+ }
+ .bl {
+     width: 100%;
+ }
+ .spesialist_advice_h1 {
+     font-size: 46px;
+ }
+ 
+ .ghh {
+     flex-direction: column;
+ }
+ .foc img {
+     margin: 0px auto;
+     
+     width: 80%;
+ }
+ .ppp {
+     width: 100%;
+     padding-left: 0px;
+ }
+ .dds {
+     width: 90%;
+     margin: 0 auto;
+ }
+ }
+ @media screen and (max-width: $mobile) {
+    .uploads_h1{
+        font-size: 29px;
+    }
+    .logo img {
+        height: 50px;
+    }
+    .spesialist_advice_h1 {
+        font-size: 24px;
+    }
+    .mud img {
+        height: 75px;
+    }
+    
+    
+    
+ }
+ @media screen and (max-width: $mobile-small) {
+ }
+ 

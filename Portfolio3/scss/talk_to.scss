@@ -1,0 +1,80 @@
+.talk_to{
+    margin-top: 100px;
+    padding-top: 50px;
+    background-color: #eeeeec;
+    margin-bottom: 54px;
+    @media screen and (max-width: 991px) {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+    }
+}
+.getin{
+    font-family: 'Foundry Sans';
+    padding-top: 30px;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: bold;
+    font-style: italic;
+    @media screen and (max-width: 575px) {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+.dds{
+    width: 40%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 81px;
+}
+.lor {
+    font-family: "Foundry Sans";
+    font-size: 20px;
+    padding-top: 20px;
+    width: 100%;
+    line-height: 25px;
+}
+.ad {
+    box-sizing: border-box;
+    width: 278px;
+   
+    background-color: #B0B885;
+    font-size: 18px;
+    
+    height: 50px;
+    margin-top: 22px;
+    border-radius: 30px;
+    
+    text-align: center;
+    font-family: "Foundry Sans"; 
+    font-weight: 700;
+    color: white !important;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: $tablet){
+        
+      margin-bottom: 30px;
+      
+     
+    }
+    @media screen and (max-width: 575px){
+       width: 200px;
+       font-size: 18px;
+       
+    }
+
+}
+.foc img {
+    
+    width: 100%;
+    position: relative;
+    top: -81px;
+   
+} 
+.ppp{
+    padding-left: 10%;
+}

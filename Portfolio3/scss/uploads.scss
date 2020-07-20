@@ -1,0 +1,78 @@
+.latest_uploads {
+    background-color: #ffffff;
+    padding: 40px 0px ;
+}
+.uploads_h1{
+    font-family: Foundry Sans;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.line2{
+    height:  5px;
+    width: 50px;
+    background-color: #000;
+    margin-top: 30px;
+    
+}
+.uploads {
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.bl{
+    width: 31%;
+    background-color: #faf8f8;
+   padding-bottom: 70px;
+   
+   position: relative;
+   margin-top: 10px;
+}
+.pad {
+    padding-left: 38px;
+    padding-right: 42px;
+}
+.bl-img {
+    
+    height: 50px;
+    padding-top: 20px;
+}
+.line3{
+    width: 100%;
+    height: 5px;
+    background-color: #000;
+}
+.mastitis{
+    padding-top: 20px;
+    font-family: 'Foundry Sans';
+    font-size: 26px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.mast{
+    font-family: "Foundry Sans";
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 5px;
+    white-space: pre-line;
+    line-height: 25px;
+}
+.readmoreblock {
+    padding-top: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 38px;
+}
+.readmbut{
+    font-family: "Foundry Sans";
+    font-weight: bold;
+    font-size: 20px;
+    color: #B0B885;
+}
+.arrow img{
+    position: relative;
+    margin-top: 1px;
+    width: 10px;
+    padding-left: 15px;;
+}

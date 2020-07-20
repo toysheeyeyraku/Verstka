@@ -1,0 +1,116 @@
+.back-to-overview  {
+    
+    color: #888887;
+    font-family: "Foundry Sans";
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: normal;
+    
+    align-content: center;
+    border: 1px solid #888887;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    min-height: 53px;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    @media screen and (max-width: $mobile){
+        max-width: 800px;
+       
+    }
+}//
+.back-to-overview-block{
+    width: 100%;
+    max-width: 800px;
+    @media screen and (max-width: 1100px){
+        max-width: 600px;
+    }
+    @media screen and (max-width: $tablet){
+        max-width: 500px;
+    }
+    
+    @media screen and (max-width: $tablet-small){
+        max-width: 800px;
+    }
+    @media screen and (max-width: $mobile){
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: $tablet-small) {
+    
+    .back-to-overview-block-direction {
+        flex-direction: column;
+    }
+    
+
+ 
+
+}
+.next_article  {
+    border: 1px solid #a79075;
+    min-height: 53px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 350px;
+    margin-left: 30px;
+    box-sizing: border-box;
+   
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+        p{
+            color: #a79075;
+            font-family: "Foundry Sans";
+            font-size: 25px;
+            font-weight: 400;
+            
+        }
+        @media screen and (max-width: $mobile){
+            max-width: 800px;
+            margin-top: 25px;
+            margin-left: 0px;
+        }
+        @media screen and (max-width: 1100px){
+            max-width: 600px;
+        }
+    
+}
+div .zzz:last-child{
+    padding-right: 0px;
+}
+.serz {
+    > *{
+        padding: 0px 10px;
+        align-self: center;
+    }
+    a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    & a{
+        @media screen and (max-width: $tablet) {
+            font-size: 18px;
+        }
+    }
+    
+}
+.back_overview_block{
+    padding: 54px 0px;
+    @media screen and (max-width: $mobile){
+       padding: 25px 0px;
+       
+    }
+}
+.share {
+    color: #b0b885;
+    font-family: "Foundry Sans";
+    font-size: 25px;
+    font-weight: 500;
+    align-self: center;
+    width: 160px;
+    box-sizing: border-box;
+    
+}

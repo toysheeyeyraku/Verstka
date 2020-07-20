@@ -1,0 +1,463 @@
+.pets-block {
+    position: relative;
+    width: 100%;
+    
+    
+    box-sizing: border-box;
+    
+    min-height: calc(100vh - 125px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    @media screen and (max-width: 1280px) {
+       height: 900px;
+     }
+     @media screen and (max-width: 767px) {
+        height: 700px;
+      }
+    .line {
+        width: 47%;
+        height: 1px;
+        margin-top: 0px;
+        background-color: #ffffff;
+    }
+    .pets-h1 {
+    color: #ffffff;
+    font-family: "Foundry Sans";
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 45px;
+    /* Text style for "Pets" */
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10vh;
+    @media screen and (max-width: 1280px) {
+        padding-top: 200px;
+      }
+      @media screen and (max-width: 767px) {
+        padding-top: 100px;
+      }
+      @media screen and (max-width: 575px) {
+        padding-top: 75px;
+      }
+    }
+    .pet-img {
+        width: 6%;
+        padding: 0px 1%;
+        @media screen and (max-width: 991px) {
+            width: 10%;
+        }
+        @media screen and (max-width: 991px) {
+            width: 100px;
+        }
+    }
+    .pets-book-today-block{
+        padding-top: 10vh;
+        width: 100%;
+    }
+    .pets-text {
+        color: #ffffff;
+        font-family: "Foundry Sans";
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+        font-style: italic;
+        @media screen and (max-width: 767px) {
+            font-size: 20px;
+            padding-top: 25px;
+            line-height: 30px;
+        }
+        max-width: 1324px;
+        @media screen and (max-width: 1500px) {
+            max-width: 90%;
+        }
+        width: 100%;
+        text-align: center;
+        margin : 0 auto;
+        padding-top: 50px;
+        @media screen and (max-width: 767px) {
+            font-size: 20px;
+            padding-top: 25px;
+        }
+        @media screen and (max-width: 575px) {
+            font-size: 16px;
+            
+        }
+    }
+    .pets-book-today {
+        display: block;
+        color: #ffffff;
+        font-family: "Foundry Sans";
+        font-size: 20px;
+        font-weight: 700;
+        /* Text style for "Book today" */
+        text-transform: uppercase;
+        height: 57px;
+        border: 3px solid #ffffff;
+        width: 278px;
+        text-align: center;
+        line-height: 50px;
+        box-sizing: border-box;
+        
+        border-radius: 30px;
+        margin: 0 auto;
+        margin-top: 50px;
+        @media screen and (max-width: 767px) {
+            margin-top: 25px;
+        }
+        margin-bottom: 60px;
+    }
+    
+}
+.pets-our-services{
+    background-color: rgba(136, 136, 135, 0.16);
+    padding: 50px 0px;
+    position: relative;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    @media screen and (max-width: 1800px) {
+            
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+     }
+    @media screen and (max-width: 1725px) {
+            
+       padding-bottom: 50px;
+       margin-bottom: 0px;
+    }
+   .changing{
+    @media screen and (max-width: 1280px) {
+       flex-direction: column;
+    
+    }
+   }
+    .our-clinic-template{
+        margin: 0px;
+        max-width: 46%;
+        @media screen and (max-width: 1280px) {
+            max-width: 90%;
+            margin: 0 auto;
+        }
+    }
+    .pets-our-services-img {
+        position: absolute;
+        right: 0px;
+        top: 50px;
+        width:calc( 50vw - 100px);
+            @media screen and (max-width: 1530px) {
+                width: 100%;
+                position: relative;
+                
+            
+            }
+        @media screen and (max-width: 1530px) {
+            width: calc(45% + 15px);
+            padding-left:calc( 10% );
+            margin-right: -15px;
+        
+        }
+        @media screen and (max-width: 1280px) {
+            
+            width: 90%;
+            margin: 0 auto;
+            padding: 0px;
+            padding-top: 50px;
+            height: 400px;
+           
+        }
+        @media screen and (max-width: 767px) {
+            
+           
+            height: 300px;
+           
+        }
+        @media screen and (max-width: 575px) {
+            
+           
+            height: 200px;
+           
+        }
+        img {
+            height: 100%;
+            object-position: center;
+            object-fit: cover;
+            
+            width: 100%;
+           
+            
+        }
+    }
+   
+}
+.pets-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+    z-index: -9999;
+}
+
+.why-vet {
+    margin-left: calc(50% + 100px);
+    @media screen and (max-width: 1530px) {
+        margin-left: 5%;
+        .slider-wrapper {
+            height: unset;
+        }
+    }
+}
+@media screen and (max-width: 1530px) {
+   
+    .slider-wrapper {
+        height: unset;
+    }
+}
+.additional-services-block{
+    background-color: rgba(136, 136, 135, 0.16);
+    padding: 50px 0px;
+    margin-bottom: 150px;
+    @media screen and (max-width: 1280px) {
+        margin-bottom: 10px;
+    }
+    .change {
+        @media screen and (max-width: 991px) {
+            flex-direction: column;
+        }
+    }
+    .puppy-classes-block{
+        padding-left: 36px;
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+    .our-clinic-template{
+        margin: 0px;
+        max-width: 500px;
+        @media screen and (max-width: 991px) {
+            max-width: 90%;
+            margin: 0 auto;
+        }
+    }
+    .puppy-class-text{
+        color: #000000;
+        font-family: "Foundry Sans";
+        font-size: 30px;
+        font-weight: 600;
+        @media screen and (max-width: 767px) {
+            font-size: 20px;
+        }
+        @media screen and (max-width: 575px) {
+            font-size: 18px;
+        }
+    }
+    .puppy-class-block{
+        padding-top: 10px;
+    }
+    .puppy-class-img img {
+        height: 16px;
+        margin-top: 7px ;
+        margin-left: 10px;
+        @media screen and (max-width: 767px) {
+            height: 15px;
+            margin-top: 5px;
+            margin-left: 2px;
+        }
+        @media screen and (max-width: 575px) {
+            height: 10px;
+            margin-top: 5px;
+            margin-left: 2px;
+        }
+    }
+    .puppy-blocks {
+       position: relative;
+       width: 100%;
+        .puppy-blocks-inner{
+            position: absolute;
+            bottom: -150px;
+            left: 0px;
+            @media screen and (max-width: 1280px) {
+                position: static;
+                
+            }
+        }
+    }
+    .puppy-sizing {
+        max-width: 879px;
+        
+        @media screen and (max-width: 991px) {
+            max-width: 90%;
+            margin : 0 auto;
+            margin-top: 30px;
+            .puppy-classes-block {
+                padding-left: 0px;
+            }
+            .puppy-classes-block:last-child{
+                padding-left: 36px;
+            }
+            
+        }
+        
+    }
+}
+.stay-in-touch-and-pets{
+    position: relative;
+    margin-bottom: 50px;
+    padding: 75px 0px;
+    @media screen and (max-width: 991px) {
+        margin-bottom: 25px;
+        padding: 25px 0px;
+    }
+    .change1{
+        @media screen and (max-width: 991px) {
+            flex-direction: column;
+        }
+    }
+    .stay-in-block{
+        max-width: 500px;
+        width: 100%;
+        @media screen and (max-width: 1280px) {
+            max-width: 30%;
+        }
+        @media screen and (max-width: 991px) {
+           position: relative;
+           padding: 25px 0px;
+           max-width: 100%
+        }
+        .adjustment {
+            @media screen and (max-width: 991px) {
+                width: 90%;
+                margin: 0 auto;
+             }
+        }
+    }
+    
+        .line {
+            width: 64px;
+            height: 1px;
+            border: 2px solid #a79075;
+            background-color: #a79075;
+        }
+        .stay{
+            color: #a79075;
+            font-family: "Foundry Sans";
+            font-size: 35px;
+            font-weight: 600;
+            line-height: 45px;
+            font-style: italic;
+           
+        }
+        .icons {
+            margin-top: 50px;
+            >*{
+                padding-right: 20px;
+            }
+        }
+    .stay-in-touch {
+        background-color: #473625;
+        width: 30vw;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        z-index: -9999;
+        @media screen and (max-width: 1280px) {
+            width: calc(30% + 15px);
+        }
+        @media screen and (max-width: 991px) {
+            width: 100vw;
+            left: -15px;
+           
+        }
+    }
+    .pets-add{
+       
+        .adjustment {
+            @media screen and (max-width: 991px) {
+                width: 90%;
+                margin: 0 auto;
+             }
+        }
+        @media screen and (max-width: 1280px) {
+           margin-left: 5%;
+        }
+        @media screen and (max-width: 991px) {
+           position: relative;
+           margin-left: 0px;
+           padding-left: 0px;
+           padding: 25px 0px;
+         }
+        .text{
+            color: #ffffff;
+            font-family: "Foundry Sans";
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 40px;
+            font-style: italic;
+            @media screen and (max-width: 1280px) {
+                font-size: 20px;
+            }
+        }
+        .get-in {
+            padding-top: 25px;
+            @media screen and (max-width: 991px) {
+              
+                
+              }
+            @media screen and (max-width: 575px) {
+              align-items: unset;
+              
+            }
+            p{
+                color: #ffffff;
+                font-family: "Foundry Sans";
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 40px;
+                @media screen and (max-width: 1280px) {
+                    font-size: 20px;
+                }
+                @media screen and (max-width: 767px) {
+                    font-size: 18px;
+                }
+            }
+            img {
+                height: 25px;
+                margin-top: 5px;
+                margin-right: 20px;
+                @media screen and (max-width: 767px) {
+                    height: 18px;
+                    margin-right: 10px;
+                }
+                @media screen and (max-width: 575px) {
+                   margin-top: 12px;
+                }
+            }
+        }
+    }
+    .pets-add-bg{
+        position: absolute;
+        width: 68vw;
+        z-index: -999999;
+        right: 0px;
+        top: 0px;
+        height: 100%;
+        @media screen and (max-width: 1280px) {
+            width: calc(65% + 15px);
+        }
+        @media screen and (max-width: 991px) {
+            right: unset;
+            left: -15px;
+            width: 100vw;
+          }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}

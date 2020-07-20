@@ -1,0 +1,62 @@
+@media screen and (max-width: $tablet-small) {
+    .tablez {
+        flex-direction: column;
+    }
+    .blls {
+        
+        width: 100%;
+    }
+    .tablez .blls:nth-child(odd){
+        border-right: 0px solid #000000;
+        .jojo{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        
+    }
+    .tablez .blls:nth-child(even){
+        border-right: 0px solid #000000;
+        .jojo{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        
+    }
+    
+    .serz{
+        padding-top: 20px;
+    }
+ 
+    .spesialist_advice_h1 {
+        font-size: 46px;
+    }
+
+
+ 
+
+}
+@media screen and (max-width: $mobile) {
+    .contd {
+        padding: 0 20px;
+    }
+    .vodo {
+        flex-direction: column;
+    }
+   
+    .uploads_h1{
+        font-size: 29px;
+    }
+    .logo img {
+        height: 50px;
+    }
+    .spesialist_advice_h1 {
+        font-size: 24px;
+    }
+    .mud img {
+        height: 75px;
+    }
+   
+    
+}
+@media screen and (max-width: $mobile-small) {
+}

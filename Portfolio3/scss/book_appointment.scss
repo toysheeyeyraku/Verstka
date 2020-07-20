@@ -1,0 +1,162 @@
+.book-app{
+    padding-bottom: 50px;
+    background-color: #ffffff;
+   
+    .dds {
+        max-width: unset;
+        justify-content: flex-start;
+        min-width: 450px;
+        @media screen and (max-width: 991px) {
+            min-width: unset;
+        }
+    }
+    .talk-to{
+        
+    }
+    .book-app-justify{
+        
+    }
+    .ghh {
+        justify-content: flex-start;
+    }
+    .ppp{
+        max-width: 741px;
+        width: 100%;
+    }
+    .getin{
+        padding-top: 0px;
+    }
+}
+.book-app2{
+    @media screen and (max-width: 991px) {
+        margin-top: 25px;
+    }
+    .dds {
+        max-width: unset;
+        
+        min-width: 450px;
+        @media screen and (max-width: 991px) {
+            min-width: unset;
+        }
+    }
+    .book-app-justify{
+        
+    }
+    
+    .ppp{
+        max-width: 741px;
+        width: 100%;
+    }
+    
+}
+.book-app-form {
+    @media screen and (max-width: 991px) {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .submit{
+        color: #ffffff;
+        font-family: "Foundry Sans";
+        font-size: 20px;
+        font-weight: 700;
+        /* Text style for "Submit" */
+        text-transform: uppercase;
+        text-align: center;
+        width: 197px;
+        height: 45px;
+        background-color: #b0b885;
+        border: none;
+        border-radius: 30px;
+        margin-top: 25px;
+    }
+    .book-textarea {
+        box-sizing: border-box;
+        padding: 10px;
+        
+        width: 100%;
+        border: 1px solid #707070;
+        border-radius: 5px;
+        font-family: "Foundry Sans";
+        font-size: 20px;
+        font-weight: 300;
+        resize: none;
+        @media screen and (max-width: 575px) {
+            font-size: 14px;
+         }
+    }
+   .book-select {
+        box-sizing: border-box;
+        padding: 0px 10px;
+        
+        width: 100%;
+        border: 1px solid #707070;
+        border-radius: 5px;
+        color: #888887;
+        font-family: "Foundry Sans";
+        font-size: 20px;
+        font-weight: 300;
+        height: 41px;
+        appearance: none;
+        
+        background-image: url('../img/book_select_arrow.svg');
+        /* запрешаем повторение фона */
+        background-repeat: no-repeat;
+        /* размер фона */
+        background-size: 17px;
+        /* позиционируем фон 95% по X и 50% по Y */
+        background-position: 95% 50%;
+        @media screen and (max-width: 575px) {
+            font-size: 14px;
+         }
+   }
+    .full-i {
+        @media screen and (max-width: 575px) {
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 10px;
+         }
+    }
+    .book-inputs{
+        width: 48%;
+        @media screen and (max-width: 575px) {
+           width: 90%;
+           margin: 0 auto;
+           margin-top: 10px;
+        }
+    }
+    .book-app-field-name{
+        color: #5f5f5f;
+        font-family: "Foundry Sans";
+        font-size: 16px;
+        font-weight: 400;
+        /* Text style for "Name*" */
+        text-transform: uppercase;
+        padding-bottom: 5px;;
+    }
+    .book-app-input {
+        box-sizing: border-box;
+        padding: 0px 10px;
+        height: 41px;
+        width: 100%;
+        border: 1px solid #707070;
+        border-radius: 5px;
+        font-family: "Foundry Sans";
+        font-size: 20px;
+        font-weight: 300;
+        @media screen and (max-width: 575px) {
+            font-size: 14px;
+         }
+    }
+    .book-app-inputs {
+        @media screen and (max-width: 575px) {
+            display: flex;
+            flex-direction: column;
+            margin-top: 0px;
+        }
+        margin-top: 20px;
+       &:first-child{
+        margin-top: 0px;
+       }
+    }
+    
+}
