@@ -283,7 +283,7 @@ a:hover{
 .addpad{
     padding-top :50px;
 }
-.sykamanimg{
+.iiiimanimg{
     width :100% ;
   
 
@@ -566,7 +566,7 @@ a:hover{
         display: block;
         max-width: 100%;
 }
-.zebigsyka {
+.zebigiiii {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -577,7 +577,7 @@ a:hover{
     transition : opacity 1s;
     
 }
-.grid-item:hover .zebigsyka {
+.grid-item:hover .zebigiiii {
    opacity :0.9;
    transition : opacity 1s;
 }
